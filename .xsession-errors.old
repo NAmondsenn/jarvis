@@ -1,4 +1,4 @@
-Xsession: X session started for nathaniel at Mon 13 Apr 01:17:46 BST 2026
+Xsession: X session started for nathaniel at Mon 20 Apr 21:26:19 BST 2026
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 xrdb: Can't open display ''
 xhost:  unable to open display ""
@@ -29,8 +29,8 @@ Monitoring Wayland compositor socket: /run/user/1000/wayland-0
 Connected to Wayland compositor
 Waiting for Wayland compositor to close...
 
-(polkit-mate-authentication-agent-1:2931): GLib-CRITICAL **: 01:17:49.880: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-mate-authentication-agent-1:1464): GLib-CRITICAL **: 21:26:22.018: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-mate-authentication-agent-1:2931): polkit-mate-1-WARNING **: 01:17:49.881: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-** Message: 01:17:50.597: batt: battery 0 not found
-** Message: 01:17:50.726: up: No network connection - polling...
+(polkit-mate-authentication-agent-1:1464): polkit-mate-1-WARNING **: 21:26:22.018: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+** Message: 21:26:22.613: batt: battery 0 not found
+** Message: 21:26:22.739: up: No network connection - polling...

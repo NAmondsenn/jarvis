@@ -1,4 +1,4 @@
-Xsession: X session started for nathaniel at Mon 13 Apr 01:17:41 BST 2026
+Xsession: X session started for nathaniel at Mon 20 Apr 21:31:48 BST 2026
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 xrdb: Can't open display ''
 xhost:  unable to open display ""
@@ -29,120 +29,13 @@ Monitoring Wayland compositor socket: /run/user/1000/wayland-0
 Connected to Wayland compositor
 Waiting for Wayland compositor to close...
 
-(polkit-mate-authentication-agent-1:1427): GLib-CRITICAL **: 01:17:44.951: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-mate-authentication-agent-1:1472): GLib-CRITICAL **: 21:31:50.934: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-mate-authentication-agent-1:1427): polkit-mate-1-WARNING **: 01:17:44.951: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-** Message: 01:17:45.806: batt: battery 0 not found
-** Message: 01:17:45.982: up: Checking for updates
-** Message: 01:17:48.183: up: Error updating cache - W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. OpenPGP signature verification failed: http://deb.debian.org/debian trixie-updates InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Not live until 2026-04-20T07:36:50Z Verifying signature:            Not live until 2026-04-20T07:37:03Z
-E: http://deb.debian.org/debian trixie-updates InRelease is not (yet) available (Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Not live until 2026-04-20T07:36:50Z Verifying signature:            Not live until 2026-04-20T07:37:03Z)
-W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. OpenPGP signature verification failed: http://deb.debian.org/debian-security trixie-security InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Not live until 2026-04-19T17:53:01Z Verifying signature:            Not live until 2026-04-19T17:53:01Z
-E: http://deb.debian.org/debian-security trixie-security InRelease is not (yet) available (Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Not live until 2026-04-19T17:53:01Z Verifying signature:            Not live until 2026-04-19T17:53:01Z)
-W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. OpenPGP signature verification failed: http://archive.raspberrypi.com/debian trixie InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Not live until 2026-04-20T10:45:40Z
-E: http://archive.raspberrypi.com/debian trixie InRelease is not (yet) available (Sub-process /usr/bin/sqv returned an error code (1), error message is: Verifying signature:            Not live until 2026-04-20T10:45:40Z)
-
-00:14:13.337 [ERROR] [libseat] [libseat/backend/logind.c:124] Could not take device: No such device
-00:14:13.337 [ERROR] [backend/session/session.c:331] Failed to open device: '/dev/input/event7': Resource temporarily unavailable
-00:32:26.073 [ERROR] [libinput] event6  - Telink Flow100@Lofree: client bug: event processing lagging behind by 97ms, your system is too slow
-
-Error: unrecognized flag --no-decommit-pooled-pages
-Error: unrecognized flag --no-decommit-pooled-pages
-Try --help for options
-Try --help for options
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:54.773: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:54.777: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:54.778: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:54.778: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.561: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.561: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.564: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.574: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.676: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.676: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.683: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:21:59.684: Invalid UTF-8 string passed to pango_layout_set_text()
-Error: unrecognized flag --no-decommit-pooled-pages
-Try --help for options
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:01.206: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:01.211: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:01.263: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:01.263: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.188: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.188: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.191: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.191: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.329: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.329: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.345: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:03.346: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:14.971: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:14.972: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:18.572: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:18.572: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:18.573: Invalid UTF-8 string passed to pango_layout_set_text()
-GetShaderInfoLog() ->
-0:2(12): error: extension `GL_EXT_shader_texture_lod' unsupported in fragment shader
-
-GetShaderSource() ->
-
-#extension GL_EXT_shader_texture_lod: require
-void main() {}
-
-[GFX1-]: Couldn't sanitize GL_RENDERER "V3D 7.1.7.0"
-[GFX1-]: Couldn't sanitize GL_RENDERER "V3D 7.1.7.0"
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:30.971: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:30.971: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:30.972: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:30.973: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:30.973: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:22:30.974: Invalid UTF-8 string passed to pango_layout_set_text()
-00:47:27.119 [ERROR] [libseat] [libseat/backend/logind.c:116] Could not stat path '/dev/input/event5'
-00:47:27.120 [ERROR] [backend/session/session.c:331] Failed to open device: '/dev/input/event5': No such file or directory
-no profile matched
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:58:16.930: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:58:16.930: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:58:16.931: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:58:17.430: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:58:17.430: Invalid UTF-8 string passed to pango_layout_set_text()
-
-(wf-panel-pi:1459): Pango-WARNING **: 13:58:17.431: Invalid UTF-8 string passed to pango_layout_set_text()
+(polkit-mate-authentication-agent-1:1472): polkit-mate-1-WARNING **: 21:31:50.935: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+** Message: 21:31:51.573: batt: battery 0 not found
+** Message: 21:31:51.700: up: No network connection - polling...
+00:00:46.504 [ERROR] [types/wlr_linux_dmabuf_v1.c:1243] Failed to get backend DRM FD
+00:00:46.504 [ERROR] [types/wlr_linux_dmabuf_v1.c:1243] Failed to get backend DRM FD
+** Message: 21:34:46.504: up: Checking for updates
+** Message: 21:34:48.408: up: Cache updated - comparing versions
+** Message: 21:34:51.773: up: Check complete - 10 updates available

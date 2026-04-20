@@ -28,3 +28,40 @@ touch tests/test_integration.py
 # Verify everything was created
 ls -la
 ls voice_assistant/
+cd ~
+ls -la | grep -E "voice_assistant|tests|logs|models|config.yaml|requirements.txt"
+nano requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+# Still in your venv, run:
+pip install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
+nano requirements.txt
+pip install -r requirements.txt
+# Deactivate venv temporarily
+deactivate
+# Install PortAudio system library
+sudo apt update
+sudo apt install -y portaudio19-dev python3-pyaudio
+# Reactivate venv
+source venv/bin/activate
+# Try again
+pip install -r requirements.txt
+git status
+git add .
+git commit -m "Initial project structure with dependencies and config"
+git push
+git config --global user.email namondsen@protonmail.com
+git config --global user.name NAmondsenn
+git commit -m "Initial project structure with dependencies and config"
+git push --set-upstream origin main
+git commit -m "Initial project structure with dependencies and config"
+git push --set-upstream origin main
+git add .
+git commit -m "Initial project structure with dependencies and config"
+git push --set-upstream origin main
+git add .
+git commit -m "Initial project structure with dependencies and config"
+git push --set-upstream origin main
+nano .gitignore
+nano voice_assistant/audio.py
