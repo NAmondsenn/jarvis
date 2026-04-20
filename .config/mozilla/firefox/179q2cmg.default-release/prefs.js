@@ -85,7 +85,7 @@ user_pref("distribution.raspberrypios.bookmarksProcessed", true);
 user_pref("doh-rollout.doneFirstRun", true);
 user_pref("doh-rollout.home-region", "GB");
 user_pref("dom.forms.autocomplete.formautofill", true);
-user_pref("dom.push.userAgentID", "af704f9ac5444ede81d19a6bf10a2517");
+user_pref("dom.push.userAgentID", "6d8a43a50ca04205bd9e318915ffadde");
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.colorway-builtin-themes-cleanup", 1);
